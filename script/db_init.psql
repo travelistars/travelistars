@@ -1,0 +1,6 @@
+create role "travelistars-dev" with createdb login password 'travelistars-dev';
+create database travelistars_development with owner="travelistars-dev";
+create role "travelistars-test" with createdb login password 'travelistars-test';
+create database travelistars_test with owner="travelistars-test";
+create role "travelistars" with createdb login password 'travelistars-prod';
+create database travelistars_production with owner="travelistars";

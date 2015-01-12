@@ -1,0 +1,17 @@
+DATABASE
+	To make sure all users are logged in with password:
+		First check where the pg_hba.conf is located...
+		$> ps v -u postgres | less
+		Check the one that has -c conf_file=<path>
+		
+		Open that postgresql.conf (which most likely is /etc/postgresql/9.3/main/postgresql.conf)
+		...then find out where the pg_hba.conf is... which is likely to be /etc/postgresql/9.3/main/pg_hba.conf.
+
+		Open that up as user postgres ($> sudo -i -u postgres), then change the line with
+		local all all peer -to-> local all all md5 (keep tabs for visuals)
+
+		Reflect the change with /etc/init.d/postgres reload
+	
+	To add users,
+		psql -f <path/to/workspace>/script/db_init.psql
+
