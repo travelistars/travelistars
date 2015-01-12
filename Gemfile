@@ -31,7 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'unicorn'
 
 # Generates stacktrace when timeout hits for dev
-gem 'rack-timeout', group: :development
+# gem 'rack-timeout', group: :development
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
