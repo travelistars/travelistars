@@ -1,1 +1,1 @@
-web: bundle exec ./binstubs/unicorn -p $PORT -E $RACK_ENV -c ./config/unicorn.rb
+web: bundle exec ./binstubs/unicorn -c ./config/unicorn.rb
