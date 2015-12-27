@@ -31,13 +31,13 @@
     </style>
 
     <script src="http://maps.googleapis.com/maps/api/js?v=3&amp;sensor=false"></script>
-    <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclustererplus/src/data.json"></script>
+    <script type="text/javascript" src="https://googlemaps.github.io/js-marker-clusterer/examples/data.json"></script>
     <script type="text/javascript">
-      var script = '<script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclustererplus/src/markerclusterer';
+      var script = '<script type="text/javascript" src="https://googlemaps.github.io/js-marker-clusterer/src/markerclusterer';
       if (document.location.search.indexOf('compiled') !== -1) {
         script += '_packed';
       }
-      script += '.js"><' + '/script>';
+      script += '.js"><'+'/script>';
       document.write(script);
     </script>
 
@@ -50,15 +50,29 @@
           center: center,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         });
-
+        var openedWindow = null;
         var markers = [];
         for (var i = 0; i < 100; i++) {
           var dataPhoto = data.photos[i];
-          var latLng = new google.maps.LatLng(dataPhoto.latitude,
-              dataPhoto.longitude);
+          var latLng = new google.maps.LatLng(dataPhoto.latitude, dataPhoto.longitude);
           var marker = new google.maps.Marker({
-            position: latLng
+            position: latLng,
+            icon: 'http://chart.apis.google.com/chart?cht=mm&chs=24x32&chco=FFFFFF,008CFF,000000&ext=.png',
+            map: map,
+            title: dataPhoto.photo_title
           });
+          var infoWindow = new google.maps.InfoWindow();
+          var infoContent = "<div><a href='"+dataPhoto.photo_url+"'><img src='"+dataPhoto.photo_file_url+"' /></a><br>"+dataPhoto.photo_title+"</div>"
+          google.maps.event.addListener(marker, 'click', (function(marker,content,window) {
+            return function() {
+              if (openedWindow != null) {
+                openedWindow.close();
+              }
+              window.setContent(content);
+              window.open(map, marker);
+              openedWindow = window;
+            };
+          })(marker, infoContent, infoWindow));
           markers.push(marker);
         }
         var markerCluster = new MarkerClusterer(map, markers);
@@ -70,4 +84,3 @@
     <div id="map-container" style="height:90vh;"><div id="map"></div></div>
   </body>
 </html>
-
