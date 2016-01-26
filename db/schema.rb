@@ -124,10 +124,13 @@ ActiveRecord::Schema.define(version: 20160118155001) do
 
   create_table "reviews", force: :cascade do |t|
     t.integer  "review_id"
+    t.integer  "entry_id"
+    t.text     "review",     null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
+  add_index "reviews", ["entry_id"], name: "index_reviews_on_entry_id", using: :btree
   add_index "reviews", ["review_id"], name: "index_reviews_on_review_id", using: :btree
 
   create_table "users", force: :cascade do |t|
