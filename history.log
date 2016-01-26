@@ -1,0 +1,617 @@
+    1  type atom
+    2  atom
+    3  atom 
+    4  type ruby
+    5  sudo apt-get install ruby
+    6  sudo apt-get install software-properties-common
+    7  sudo apt-add-repository ppa:brightbox/ruby-ng
+    8  sudo apt-get update
+    9  sudo apt-get install ruby2.2
+   10  type ruby
+   11  ruby -v
+   12  type gem
+   13  gem install rails
+   14  sudo gem install rails
+   15  gem -v
+   16  gem update --system
+   17  gem list
+   18  gem :rails:
+   19  gem 'rails'
+   20  gem install rails --version=4.2
+   21  sudo gem install rails --version=4.2
+   22  lsb_release
+   23  lsb_release a
+   24  sudo lsb_release a
+   25  sudo lsb_release -a
+   26  sudo rvm get stable --autolibs=enable
+   27  type sudo gem update
+   28  sudo gem update
+   29  sudo apt-get install ruby-dev
+   30  sudo gem update
+   31  sudo apt-get install ruby-dev
+   32  sudo apt-get autoremove
+   33  sudo apt-get install ruby-dev
+   34  sudo apt-get update
+   35  sudo apt-get install ruby-dev
+   36  ruby -v
+   37  rails
+   38  rails -v
+   39  type bundle
+   40  sudo apt-get update
+   41  sudo apt-get install curl
+   42  \curl -L https://get.rvm.io | bash -s stable --ruby
+   43  rvm get stable --autolibs=enable
+   44  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+   45  type rvm
+   46  command curl -sSL https://rvm.io/mpapis.asc | gpg --import -
+   47  rvm get stable --autolibs=enable
+   48  \curl -L https://get.rvm.io | bash -s stable --ruby
+   49  gem install bundler
+   50  sudo gem install bundler
+   51  rvm get stable --autolibs=enable
+   52  type rbm
+   53  type rvm
+   54  source /home/tommy/.rvm/scripts/rvm
+   55  type rbm
+   56  type rvm
+   57  rvm get stable --autolibs=enable
+   58  rvm install ruby
+   59  rvm gemset list
+   60  rvm use ruby-2.2.0@rails4.2 --create
+   61  gem install rails
+   62  sudo gem install rails
+   63  sudo apt-get install make
+   64  sudo gem install rails
+   65  type ruby-dev
+   66  sudo apt-get install ruby-dev
+   67  ruby-dev
+   68  sudo ruby-dev
+   69  sudo apt-get install make
+   70  bundle
+   71  sudo bundle
+   72  sudo gem install rails -v 3.2.9
+   73  sudo gem install rails -v 4.2
+   74  gem outdated
+   75  rvm gemset list
+   76  rails4.2
+   77  type rails
+   78  rails -v
+   79  gem -v
+   80  sudo apt-get install nodejs
+   81  ruby -v
+   82  gem -v
+   83  type rvm
+   84  type nodejs
+   85  gem -v
+   86  gem update --system
+   87  rvm gemset list
+   88  rvm gemset use global
+   89  gem list
+   90  rvm --version
+   91  gem install nokogiri
+   92  rvm list
+   93  gem install rails
+   94  rails -v
+   95  rails create Test
+   96  rails Test
+   97  ls
+   98  mkdir MyApp
+   99  cd MyApp/
+  100  ls
+  101  rvm use ruby-2.2.0@myapp --ruby-version --create
+  102  rails
+  103  rails new Test
+  104  ls
+  105  cd Test/
+  106  ls
+  107  ls public/
+  108  file . | grep route
+  109  find . | grep route
+  110  cd config/
+  111  ls
+  112  vim routes.rb 
+  113  sudo apt-get install vim
+  114  ls
+  115  less routes.rb 
+  116  ls
+  117  cd ..
+  118  ls
+  119  ls lib
+  120  ls tmp
+  121  ls vendor/
+  122  ls config
+  123  ls
+  124  type gem
+  125  which gem
+  126  sudo apt-get install postgresql postgresql-contrib
+  127  sudo -i -u postgres
+  128  gem install pg
+  129  sudo apt-get install postgresql-common
+  130  psql -v
+  131  sudo -i -u postgres
+  132  sudo apt-get install libpq-dev
+  133  gem install pg
+  134  gem list
+  135  history | grep bundler
+  136  history | grep post
+  137  which bundle
+  138  bundle install
+  139  which ruby_executable_hucks
+  140  which ruby_executable_hooks
+  141  type git
+  142  sudo apt-get install git
+  143  git -v
+  144  git --version
+  145  /etc/ini.d
+  146  /etc/init.d
+  147  sudo /etc/init.d
+  148  /etc/init.d/postgresql status
+  149  sudo add-apt-repository ppa:japanese-testers/mozc
+  150  sudo apt-get update
+  151  killall ibus-daemon
+  152  sudo sh -c "echo 'deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg main' > /etc/apt/sources.list.d/pgdg.list"
+  153  wget --quiet -O - http://apt.postgresql.org/pub/repos/apt/ACCC4CF8.asc | sudo apt-key add -
+  154  sudo apt-get update
+  155  ls
+  156  cd MyApp/
+  157  ls
+  158  rails new PostgreSQL -d postgresql
+  159  gem install json -v '1.8.2'
+  160  psql --version
+  161  gem list
+  162  sudo gem install json -v '1.8.2'
+  163  ruby -v
+  164  gem install json -v '1.8.2'
+  165  la
+  166  la ..
+  167  type bandle
+  168  type bundle
+  169  la ~
+  170  sudo gem install json
+  171  rails new PostgreSQL -d postgresql
+  172  gem list
+  173  sudo apt-get list
+  174  sudo apt-get 
+  175  sudo attitude
+  176  sudo aptitude
+  177  sudo apptitude
+  178  sudo apttitude
+  179  type brew
+  180  rvm get stable --auto-dotfiles
+  181  sudo gem install json
+  182  less /var/lib/gems/2.2.0/extensions/x86_64-linux/2.2.0/json-1.8.2/gem_make.out
+  183  sudo apt-get install ruby-dev
+  184  sudo gem install json
+  185  gem update -system
+  186  sudo gem update -system
+  187  sudo gem update --system
+  188  sudo gem install json
+  189  sudo apt-get install ruby-dev
+  190  sudo apt-get autoremove
+  191  sudo gem install json
+  192  gem list
+  193  sudo apt-get install ruby-dev
+  194  type ruby-dev
+  195  ruby -v
+  196  sudo gem install json
+  197  ls -atlr /usr/bin/ruby2.2 
+  198  which gem
+  199  ls -atlr /usr/bin/gem
+  200  sudo rm /usr/bin/gem
+  201  sudo ln -s /home/tommy/.rvm/rubies/ruby-2.2.0/bin/gem /usr/bin/gem
+  202  gem install json
+  203  man chown
+  204  sudo chown -R tommy /home/tommy/.rvm
+  205  gem install json
+  206  type gem
+  207  ls -atrl /usr/bin/ruby
+  208  sudo gem install json
+  209  cp /usr/bin/ruby /usr/bin/ruby.bak
+  210  sudo cp /usr/bin/ruby /usr/bin/ruby.bak
+  211  sudo ln -s /home/tommy/.rvm/rubies/ruby-2.2.0/bin/ruby /usr/bin/ruby
+  212  sudo rm /usr/bin/ruby
+  213  sudo ln -s /home/tommy/.rvm/rubies/ruby-2.2.0/bin/ruby /usr/bin/ruby
+  214  sudo gem install json
+  215  gem install json
+  216  type rails 
+  217  ls /home/tommy/.rvm/rubies/ruby-2.2.0/bin/
+  218  type gem
+  219  ll /usr/bin/
+  220  ll /usr/bin/ | less
+  221  sudo gem install json
+  222  rails new PostgreSQL -d postgresql
+  223  ruby -v
+  224  ruby2.2 -v
+  225  gem list 
+  226  gem 
+  227  gem uninstall json --version=1.8.1
+  228  gem 
+  229  gem list 
+  230  gem list json
+  231  gem
+  232  gem help commands
+  233  gem help commands | less
+  234  gemset
+  235  rvm gemset
+  236  rvm gemset | less
+  237  rvm gemset list
+  238  gem uninstall json --version 1.8.1
+  239  gem which json
+  240  gem search -r json
+  241  gem uninstall json --version "= 1.8.1"
+  242  gem uninstall json --version "= 1.8.2"
+  243  gem install json --version "= 1.8.2"
+  244  sudo gem install json --version "= 1.8.2"
+  245  gem uninstall json --version "= 1.8.1"
+  246  gem
+  247  ps aux | grep post
+  248  rvm gemset use json --version 1.8.2
+  249  sudo gem set json --version "= 1.8.2"
+  250  gem json -> '1.8.2'
+  251  gem 'json' '1.8.2'
+  252  gem "json" '1.8.2'
+  253  gem "json" "1.8.2"
+  254  gem "json", "1.8.2"
+  255  sudo gem "json", "~> 1.8.2"
+  256  sudo gem "json", "1.8.2"
+  257  gem list
+  258  gem "json", "1.8.2"
+  259  gem update json
+  260  gem upgrade json
+  261  gem
+  262  gem help gem_dependencies
+  263  gem help gem_dependencies | less
+  264  gem help json
+  265  gem help command
+  266  gem help 
+  267  gem help command | less
+  268  gem dependency json
+  269  sudo gem install sdoc 
+  270  sudo gem install permutation
+  271  gem dependency json
+  272  sudo gem uninstall json-1.8.1
+  273  sudo gem list
+  274  sudo gem uninstall json 1.8.1
+  275  sudo gem install json 1.8.2 --default
+  276  gem list
+  277  rails new PostgreSQL -d postgresql
+  278  gem install json -v '1.8.2'
+  279  sudo gem install json -v '1.8.2'
+  280  sudo bundle install
+  281  bundle install
+  282  ls
+  283  cd PostgreSQL/
+  284  ls
+  285  vim Gemfile 
+  286  cd ..
+  287  rails new PostgreSQL -d postgresql
+  288  vim PostgreSQL/Gemfile 
+  289  rails new PostgreSQL -d postgresql
+  290  gem list
+  291  sudo gem install pg
+  292  rails new PostgreSQL -d postgresql
+  293  gem list
+  294  ls
+  295  cd PostgreSQL/
+  296  ls
+  297  vim Gemfile 
+  298  rails bundle install
+  299  bundle install
+  300  type gem
+  301  ls /home/tommy/.rvm/rubies/ruby-2.2.0/bin/
+  302  ll /usr/bin/ | grep erb
+  303  ll /usr/bin/ | grep gem
+  304  ll /usr/bin/ | grep irb
+  305  ll /usr/bin/ | grep rake
+  306  ll /usr/bin/ | grep ruby
+  307  ll /usr/bin/ | grep ri
+  308  bundle install
+  309  gem install pg -v '0.18.1'
+  310  sudo gem install pg -v '0.18.1'
+  311  bundle install
+  312  rails server
+  313  gem list
+  314  B/usr/bin/ruby2.2 -r ./siteconf20150112-11248-fdt7qk.rb extconf.rb 
+  315  ls /home/tommy/.rvm/rubies/ruby-2.2.0/bin/
+  316  type extconf
+  317  type extconf.rb
+  318  find / -file-name=extconf.rb
+  319  find / --file-name=extconf.rb
+  320  find / extconf.rb
+  321  find / | grep extconf.rb
+  322  sudo bundle install
+  323  vim Gemfile 
+  324  bundle install
+  325  cd MyApp/
+  326  ls
+  327  ls 1.8.2 
+  328  ls 1.8.2
+  329  rm 1.8.2 
+  330  ls
+  331  cd PostgreSQL/
+  332  ls
+  333  rails new -d postgresql
+  334  bundle install
+  335  less /usr/lib/ruby/include/ruby.h
+  336  ls
+  337  ls ../../.rvm/bin/
+  338  type rvm
+  339  ls ../../.rvm/rubies/default/bin/
+  340  ls ../../.rvm/rubies/ruby-2.2.0/bin/
+  341  ls ../../.rvm/rubies/ruby-2.2.0/lib
+  342  echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+  343  less ~/.bash_profile 
+  344  bundle install
+  345  vim ~/.bash_profile 
+  346  bundle update
+  347  gem install pg -v '0.18.1'
+  348  sudo chown tommy -R ~/.rvm
+  349  gem install pg -v '0.18.1'
+  350  bundle update
+  351  gem install pg -v '0.18.1'
+  352  sudo mv /usr/bin/ruby2.2 /usr/bin/ruby2.2.bak
+  353  ll /usr/bin/
+  354  ll /usr/bin/ /usr/bin/ruby | grep ruby
+  355  ln -s /home/tommy/.rvm/rubies/ruby-2.2.0/bin/ruby /usr/bin/ruby2.2
+  356  sudo ln -s /home/tommy/.rvm/rubies/ruby-2.2.0/bin/ruby /usr/bin/ruby2.2
+  357  bundle update
+  358  bundle install
+  359  ruby -v
+  360  rails server
+  361  ls
+  362  vim config/database.yml 
+  363  cd ../../
+  364  ls
+  365  cd MyApp/
+  366  ls
+  367  cd ../
+  368  ls
+  369  mv MyApp/ workspace
+  370  cd workspace/
+  371  ls
+  372  git clone https://github.com/travelistars/travelistars
+  373  ｌｓ
+  374  ls
+  375  cd workspace/
+  376  ls
+  377  cd workspace/
+  378  l
+  379  cd travelistars/
+  380  ls
+  381  git pull
+  382  rails server 
+  383  bundle install
+  384  rails s
+  385  ls
+  386  less config/database.yml 
+  387  ls
+  388  less config/database.yml 
+  389  git branch qa
+  390  git push
+  391  ls
+  392  ls ..
+  393  git push
+  394  git checkout qa
+  395  git remote help
+  396  git remote add -t qa -m master
+  397  git push origin qa
+  398  git branch dev
+  399  git checkout dev
+  400  git push origin dev
+  401  heroku login
+  402  wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+  403  heroku login
+  404  heroku open --app travelistars-qa
+  405  heroku open --app travelistars-dev
+  406  ls
+  407  pwd
+  408  ls
+  409  less config/database.yml 
+  410  ps v -u postgre
+  411  ps v -u postgres
+  412  psql
+  413  sudo -i -u postgres
+  414  ls
+  415  less config/database.yml 
+  416  vim db_init.psql
+  417  ls
+  418  find . | grep script
+  419  ls lin
+  420  ls config
+  421  mkdir script
+  422  mv db_init.psql script/
+  423  ls
+  424  cd script/
+  425  ls
+  426  cd ..
+  427  ls
+  428  sudo -i -u postgres
+  429  ls
+  430  rails server
+  431  sudo -i -u postgres
+  432  cd script/
+  433  cp /etc/postgresql/9.3/main/pg_hba.conf .
+  434  cd ..
+  435  ls
+  436  mkdir memo
+  437  cd memo/
+  438  vim START_UP.txt
+  439  cd ..
+  440  ls
+  441  git add .
+  442  git commit 
+  443  git config --global user.email "tomy.yat@gmail.com"
+  444  git config --global user.name "tomy.yat"
+  445  git commit
+  446  git branch
+  447  git push dev master
+  448  git login
+  449  git pull
+  450  git pull dev master
+  451  git push origin dev
+  452  history | less
+  453  git branch
+  454  git status
+  455  git history
+  456  git help
+  457  git log
+  458  git help log
+  459  git log b239231e0d65256212d45cf6c04add5f89663fc3
+  460  git help log
+  461  git log --full-diff
+  462  git help log
+  463  git hlep
+  464  git help
+  465  git help diff
+  466  git diff b239231e0d65256212d45cf6c04add5f89663fc3
+  467  git help diff
+  468  git diff HEAD
+  469  vim ~/.gitconfig 
+  470  git config --global core.editor "vim"
+  471  vim ~/.gitconfig 
+  472  ls
+  473  git pull origin dev
+  474  less config/unicorn.rb 
+  475  less script/bundle.sh 
+  476  rails s
+  477  rails server
+  478  bundle install
+  479  foreman start
+  480  ls
+  481  less script/bundle.sh 
+  482  foreman start
+  483  ./script/bundle.sh 
+  484  foreman start
+  485  ls
+  486  less binstubs/
+  487  ls binstubs/
+  488  rake unicorn:start
+  489  less script/bundle.sh 
+  490  bundle install
+  491  foreman start
+  492  ./script/bundle.sh 
+  493  foreman start
+  494  bundle install
+  495  less script/bundle.sh 
+  496  ls
+  497  mv binstubs/ binstubs-bak
+  498  bundle install
+  499  foreman start
+  500  bundle install
+  501  foreman start
+  502  vim binstubs/unicorn
+  503  ls
+  504  vim Rakefile
+  505  ls
+  506  vim Gemfile
+  507  ls
+  508  rm binstubs-bak/
+  509  rm -rf binstubs-bak/
+  510  ls
+  511  type unicorn
+  512  which unicorn
+  513  foreman start
+  514  less Procfile 
+  515  vim Procfile 
+  516  bundle exec unicorn
+  517  bundle exec unicorn -c ./config/unicorn.rb 
+  518  vim Procfile 
+  519  bundle exec unicorn -c ./config/unicorn.rb 
+  520  bundle exec binstubs/unicorn -c ./config/unicorn.rb 
+  521  vim Procfile 
+  522  ls
+  523  echo $RACK_ENV
+  524  vim Procfile 
+  525  bundle exec binstubs/unicorn -c ./config/unicorn.rb 
+  526  vim Procfile 
+  527  ls
+  528  echo $PORT
+  529  vim Procfile 
+  530  la
+  531  vim .gitignore 
+  532  vim Procfile 
+  533  foreman start
+  534  ls
+  535  vim Procfile 
+  536  ls
+  537  la
+  538  vim Gemfile
+  539  ls
+  540  vim config
+  541  ls
+  542  ls config
+  543  vim config/unicorn.rb 
+  544  ls
+  545  git pull origin dev
+  546  ls
+  547  vim Procfile 
+  548  git pull origin dev
+  549  mv Procfile Procfile.bak
+  550  git pull origin dev
+  551  ls
+  552  diff Procfile
+  553  diff Procfile(
+  554  diff Procfile*
+  555  rm Procfile.bak 
+  556  ls
+  557  diff Procfile*
+  558  git pull origin dev
+  559  ls
+  560  vim Gemfile
+  561  ls
+  562  vim config/boot.rb 
+  563  foreman start
+  564  vim config/boot.rb 
+  565  ls
+  566  vim config/unicorn.rb 
+  567  vim config/environment
+  568  vim config/environment.rb 
+  569  vim config/boot.rb 
+  570  ls
+  571  vim config/application.rb 
+  572  find . | xargs grep 8080
+  573  find . | xargs grep 8080 | less
+  574  ls
+  575  less .gitignore 
+  576  echo "RACK_ENV=development" >>.env
+  577  echo "PORT=3000" >> .env
+  578  ls
+  579  la
+  580  rake db:create
+  581  heroku login
+  582  heroku open --app travelistars-dev
+  583  heroku logs --tail --app travelistars-dev
+  584  heroku run bash
+  585  echo $PORT
+  586  heroku run bash --app travelistars-dev
+  587  git pull origin dev
+  588  vim Procfile 
+  589  ls
+  590  vim .env 
+  591  forman start
+  592  vim .env 
+  593  forman start
+  594  type forman
+  595  history | less
+  596  foreman start
+  597  vim .env 
+  598  foreman start
+  599  ifconfig
+  600  ping google.co.jp
+  601  ifconfig
+  602  ping google.co.jp
+  603  exit
+  604  ls
+  605  cd Desktop/
+  606  ls
+  607  cd 
+  608  ls
+  609  ls Do
+  610  cd workspace/
+  611  ls
+  612  cd travelistars/
+  613  ls
+  614  less Gemfile.lock 
+  615  ls
+  616  history
+  617  history > history.log
