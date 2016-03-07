@@ -1,0 +1,37 @@
+Google: travelistars@gmail.com/kanon.tommy
+Heroku: travelistars@gmail.com/kanon.tommy1106
+
+Env:
+- travelistars-dev
+- travelistars-qa
+- travelistars
+
+Git:
+- branch: dev/qa/master
+
+Heroku cmds:
+# to login
+- heroku login
+# to open the window
+- heroku open --app travelistars-dev
+# to tail the log
+- heroku logs --tail --app travelistars-dev
+# to run the bash
+- heroku run bash --app travelistars-dev
+
+Rails:
+# to start the server
+- forman start
+# to update DB
+- rake db:migrate
+
+PostgreSQL:
+# to login
+- psql travelistars_development
+# to check DBs
+- \l
+# connect to DB
+- \connect travelistars_development
+# to check tables
+- \d
+
