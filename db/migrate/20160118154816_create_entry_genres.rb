@@ -5,7 +5,9 @@ class CreateEntryGenres < ActiveRecord::Migration
       t.references :genre
       t.timestamps
     end
+
     add_index :entry_genres, :entry_id
     add_index :entry_genres, :genre_id
+    add_index :entry_genres, [:entry_id, :genre_id], unique: true
   end
 end

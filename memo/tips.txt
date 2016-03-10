@@ -1,6 +1,6 @@
-Google: travelistars@gmail.com/kt
-git: travelistars@gmail.com/kt1
-Heroku: travelistars@gmail.com/kt1
+Google: travelistars@gmail.com/mta1
+git: travelistars@gmail.com/mta1
+Heroku: travelistars@gmail.com/mta1
 
 Env:
 - travelistars-dev
