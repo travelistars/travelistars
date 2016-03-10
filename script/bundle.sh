@@ -1,1 +1,1 @@
-bundle install --binstubs binstubs
+bundle install --binstubs vender/bundle/bin
