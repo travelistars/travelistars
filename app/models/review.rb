@@ -3,5 +3,5 @@ class Review < ActiveRecord::Base
   belongs_to :parent, :class_name => "Review", :foreign_key => "review_id"
   belongs_to :entry
 
-  validates :review, presence: true
+  validates :comment, presence: true
 end

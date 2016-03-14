@@ -3,7 +3,7 @@ class CreateReviews < ActiveRecord::Migration
     create_table :reviews do |t|
       t.references :review
       t.references :entry
-      t.text :review, null: false
+      t.text :comment, null: false
 
       t.timestamps
     end
