@@ -1,1 +1,1 @@
-bundle install --binstubs binstubs
+bundle install --binstubs vendor/bundle/bin
