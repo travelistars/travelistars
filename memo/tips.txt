@@ -2,6 +2,9 @@ Google: travelistars@gmail.com/mta1
 git: travelistars@gmail.com/mta1
 Heroku: travelistars@gmail.com/mta1
 
+GIT Architecture:
+- bitbucket repo: bitbucket(code review/JIRA)
+- github repo: heroku
 
 Env:
 - travelistars-dev
