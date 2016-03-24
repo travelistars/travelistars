@@ -26,6 +26,8 @@ Env:
 - gem install rails --version="~> 4.2"
 - git clone git://github.com/sstephenson/ruby-build.git
 - rbenv rehash
+# to install Heroku
+- wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
 Git:
 - branch: dev/qa/master

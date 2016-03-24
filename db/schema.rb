@@ -48,25 +48,26 @@ ActiveRecord::Schema.define(version: 20160118155001) do
 
   add_index "entries", ["location_id"], name: "index_entries_on_location_id", using: :btree
 
-  create_table "entry_genres", force: :cascade do |t|
+  create_table "entries_genres", force: :cascade do |t|
     t.integer  "entry_id"
     t.integer  "genre_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "entry_genres", ["entry_id"], name: "index_entry_genres_on_entry_id", using: :btree
-  add_index "entry_genres", ["genre_id"], name: "index_entry_genres_on_genre_id", using: :btree
+  add_index "entries_genres", ["entry_id", "genre_id"], name: "index_entries_genres_on_entry_id_and_genre_id", unique: true, using: :btree
+  add_index "entries_genres", ["entry_id"], name: "index_entries_genres_on_entry_id", using: :btree
+  add_index "entries_genres", ["genre_id"], name: "index_entries_genres_on_genre_id", using: :btree
 
-  create_table "entry_links", force: :cascade do |t|
+  create_table "entries_links", force: :cascade do |t|
     t.integer  "entry_id"
     t.integer  "link_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "entry_links", ["entry_id"], name: "index_entry_links_on_entry_id", using: :btree
-  add_index "entry_links", ["link_id"], name: "index_entry_links_on_link_id", using: :btree
+  add_index "entries_links", ["entry_id"], name: "index_entries_links_on_entry_id", using: :btree
+  add_index "entries_links", ["link_id"], name: "index_entries_links_on_link_id", using: :btree
 
   create_table "genres", force: :cascade do |t|
     t.string   "name"
@@ -74,6 +75,8 @@ ActiveRecord::Schema.define(version: 20160118155001) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "genres", ["name"], name: "index_genres_on_name", unique: true, using: :btree
 
   create_table "links", force: :cascade do |t|
     t.string "url"
@@ -125,7 +128,7 @@ ActiveRecord::Schema.define(version: 20160118155001) do
   create_table "reviews", force: :cascade do |t|
     t.integer  "review_id"
     t.integer  "entry_id"
-    t.text     "review",     null: false
+    t.text     "comment",    null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
